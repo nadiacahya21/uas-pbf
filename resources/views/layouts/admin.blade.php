@@ -73,32 +73,32 @@
     <div class="am-sideleft">
         <ul class="nav am-sideleft-menu">
             <li class="nav-item">
-              <a href="/" class="nav-link">
+              <a href="{{ route('home') }}" class="nav-link">
                 <span>Dashboard</span>
               </a>
             </li><!-- nav-item -->
             <li class="nav-item">
-                <a href="/user" class="nav-link">
+                <a href="{{ route('user.index') }}" class="nav-link">
                   <span>User</span>
                 </a>
               </li><!-- nav-item -->
               <li class="nav-item">
-                <a href="/pasien" class="nav-link">
+                <a href="{{ route('pasien.index') }}" class="nav-link">
                   <span>Pasien</span>
                 </a>
               </li><!-- nav-item -->
               <li class="nav-item">
-                <a href="/dokter" class="nav-link">
+                <a href="{{ route('dokter.index') }}" class="nav-link">
                   <span>Dokter</span>
                 </a>
               </li><!-- nav-item -->
               <li class="nav-item">
-                <a href="/obat" class="nav-link">
+                <a href="{{ route('obat.index') }}" class="nav-link">
                   <span>Obat</span>
                 </a>
               </li><!-- nav-item -->
               <li class="nav-item">
-                <a href="/berobat" class="nav-link">
+                <a href="{{ route('berobat.index') }}" class="nav-link">
                   <span>Berobat</span>
                 </a>
               </li><!-- nav-item -->

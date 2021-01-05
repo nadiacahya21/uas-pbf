@@ -22,7 +22,7 @@ Auth::routes([
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/', function () {
         return view('home');
-    });
+    })->name('home');
     Route::resource('user', 'UserController');
     Route::resource('pasien', 'PasienController');
     Route::resource('dokter', 'DokterController');
